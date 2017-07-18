@@ -9,6 +9,8 @@ class ItemList extends Component {
         super();
         this.state = {
             items: [],
+            hasErrored: false,
+            isLoading: false
         };
     }
 
