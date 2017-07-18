@@ -60,7 +60,10 @@ export function itemsFetchData(url) {
                 if (!response.ok) {
                     throw Error(response.statusText);
                 }
-
+                /*
+                 The inner function can receive
+                 the store methods dispatch and getState as parameters, but we'll just use dispatch.
+                 */
                 dispatch(itemsIsLoading(false));
 
                 return response;
