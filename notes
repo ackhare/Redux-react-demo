@@ -1,0 +1,18 @@
+motivation --->
+ a component shouldn’t include logic to fetch data, and data shouldn’t be stored in a
+ component’s state, so this is where Redux comes in.
+
+ our code must manage more state than ever before is spa
+
+
+ https://medium.freecodecamp.org/why-redux-makes-sense-to-me-and-how-i-conceptualize-it-c8a3a9db15ca
+
+ 1. As much as possible, focus on writing stateless functional components,
+ since these components are pure (i.e. given the same input prop values, will always return the same UI
+ representation). Pure components are easier to reason about and test.
+
+ 2.Whenever I needed to incorporate state into my components, I carefully asked myself which
+ component should actually manage this state.
+  Should it be the immediate parent of a particular stateless component?
+  Or should it be higher up in the hierarchy since other stateless components might need it too?
+
