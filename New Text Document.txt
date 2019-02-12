@@ -1,0 +1,8 @@
+https://grokonez.com/frontend/introduction-to-redux-a-simple-practical-redux-example
+https://docs.google.com/document/d/1uN8i9o3j0AMeFmgQAQRxxQLeG-ERV8OnZSZ8Qj3gYTM/edit#---> My notes
+
+This is a simple Redux Application that has:
+– count as the main state that is stored inside Redux Store.
+– 4 types of Action: 'ADD', 'MINUS', 'SET', 'RESET'.
+– Reducer with initial state: count = 0.
+We can add/minus a number to count, set or reset count value.
