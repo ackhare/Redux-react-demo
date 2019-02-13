@@ -28,7 +28,25 @@ To summarize Flow of events
 3)Next a loop will be done on the props to take and list book object there which will be shown to audience
   though {props.books.map}   
 
+4)The handshake of state from store to props of redux happens with connect();
+
+
+export default connect(mapStateToProps)(BookList);
 
 https://redux.js.org/recipes/using-object-spread-operator
+
+NOte : Always select realtime database and edit rules 
+json that is added in firebase
+{
+  "books" : {
+    "-LYaCW3b9eFsabPGvx90" : {
+      "author" : "hfdhdf",
+      "description" : "hdfhfdh",
+      "published" : 2,
+      "title" : "fhdfhdf"
+    }
+  }
+}
+
 
 

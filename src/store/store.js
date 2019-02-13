@@ -1,7 +1,8 @@
-import { createStore, combineReducers } from "redux";
+import { createStore, combineReducers, applyMiddleware } from "redux";
 import booksReducer from '../reducers/books';
 import filtersReducer from '../reducers/filters';
-//This state is defined and will be used ,generally it can come from some external api
+import thunk from 'redux-thunk';
+
 const demoState = {
     books: [
         {
@@ -19,12 +20,12 @@ const demoState = {
         endYear: undefined
     }
 };
-//contains Redux Store Component which is created from result of combineReducers(books, filters).
+
 export default () => {
     return createStore(
         combineReducers({
             books: booksReducer,
             filters: filtersReducer
-        }
-    ));
+        }),
+        applyMiddleware(thunk));
 };
