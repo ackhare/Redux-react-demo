@@ -1,8 +1,20 @@
-https://grokonez.com/frontend/introduction-to-redux-a-simple-practical-redux-example
+https://grokonez.com/frontend/how-to-connect-react-with-redux-react-redux-example
 https://docs.google.com/document/d/1uN8i9o3j0AMeFmgQAQRxxQLeG-ERV8OnZSZ8Qj3gYTM/edit#---> My notes
 
-This is a simple Redux Application that has:
-– count as the main state that is stored inside Redux Store.
-– 4 types of Action: 'ADD', 'MINUS', 'SET', 'RESET'.
-– Reducer with initial state: count = 0.
-We can add/minus a number to count, set or reset count value.
+We will build a React Application using React Router v4 and Redux. 
+It can get App state data and display them in a Component:
+
+– AppRouter for implementing React Router.
+– DashBoard, AddBook, EditBook, Help, NotFound are React Components that will work with Router.
+
+– BookList Component is a child Component of DashBoard. In this Component, we use react-redux connect() 
+function. Then props that is gotten from state will be used in Book Component – child of BookList Component.
+
+– We will use react-redux Provider inside app.js.
+In app.js
+
+-  get store.
+– dispatch addBook action after every second (we want to check if Component props is updated whenever 
+state changes).
+– use react-redux Provider to make Redux store available for connecting with React Components.
+
