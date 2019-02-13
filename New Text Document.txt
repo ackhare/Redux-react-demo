@@ -18,3 +18,17 @@ In app.js
 state changes).
 – use react-redux Provider to make Redux store available for connecting with React Components.
 
+
+To summarize Flow of events 
+
+1)first of all we initiale 3 books object with dispatch which will get to action and store in store object 
+2)Then through proper route it will go to dashboard and then its child Booklist where we will 
+  fill its props with some object from store via mapstateToProps where we will return a props object via 
+  state tree of object(books)
+3)Next a loop will be done on the props to take and list book object there which will be shown to audience
+  though {props.books.map}   
+
+
+https://redux.js.org/recipes/using-object-spread-operator
+
+
