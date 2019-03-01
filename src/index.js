@@ -3,9 +3,9 @@ import {render} from "react-dom";
 
 
 import ItemList from "./components/ItemList";
-
+import MyForm from "./components/MyForm";
 
 render(
-    <ItemList />,
+    <MyForm />,
     document.getElementById('app')
 );
