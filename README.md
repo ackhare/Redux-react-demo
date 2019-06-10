@@ -11,4 +11,5 @@ Below are branches with its description
          This also demonstartrets correct way of using fetch/axios with state manipulation in react
  - [ ] newBranchForReactReduxPractice ---> completely new branch with a crud app with redux first approach and webpack for  PRODUCTION approach
  - [ ] addingThunk ---> added redux middleware with firebase for demo 
+  - [ ] routing ---> simple react routing with react-router
 
