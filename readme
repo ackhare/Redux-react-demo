@@ -7,3 +7,5 @@ It’s also protecting you by default against cross-site request forgery (XSRF).
 The usual way of handling errors in JavaScript when using promises, is via the .catch() method. 
 The beauty of using async/await is 
 thet we can forget about that and use try/catch statements instead.
+
+https://dev.to/moz5691/axios-in-reactjs-iah(for put patch and delete)
