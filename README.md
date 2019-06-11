@@ -5,4 +5,6 @@ This is actually from the parent branch and nothing to do with this branch
 In second commit we have a minimal redux project with all action reducer and dispatch in single file (app.js)
 which is just a minimal react 
 
-The third and fouth commit basically deal with grokenme
+The third and fouth commit basically deal with grokenme repo exapmle which has react redux with broserrouter 
+A simple crud
+https://grokonez.com/frontend/how-to-connect-react-with-redux-react-redux-example
