@@ -2,10 +2,10 @@ import React from "react";
 import {render} from "react-dom";
 
 
-import ItemList from "./components/ItemList";
+import App from "./App";
 
 
 render(
-    <ItemList />,
+    <App />,
     document.getElementById('app')
-);
+)
